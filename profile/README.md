@@ -161,13 +161,13 @@ Cookiecutter crea proyectos desde plantillas cookiecutters, por ejemplo, el tool
 
 Se debe contar mínimo con Cookiecutter para la descarga de toolkits. Sin embargo, se recomienda realizar contar con todas las herramientas instaladas para una mayor facilidad de trabajo en el uso de los toolkits.
 
-- Toolkit MLOps
+- [Toolkit MLOps](https://github.com/CajaPiura-AIN/caja_piura-toolkit-dsp)
 
   ```shell
   cookiecutter git+ssh://git@github.com/CajaPiura-AIN/caja_piura-toolkit-dsp.git
   ```
 
-- Skill para documentar scripts SQL
+- [Skill para documentar scripts SQL](https://github.com/CajaPiura-AIN/caja_piura-generator_docs_sql)
 
   ```shell
   cookiecutter git+ssh://git@github.com/CajaPiura-AIN/caja_piura-generator_docs_sql.git
