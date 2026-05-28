@@ -16,8 +16,8 @@ Casi todas las siguientes instalaciones se realizan por línea de comandos. Se r
 
 De no contar con acceso a alguna otra *command line interface*, instalar PowerShell 7 desde:
 
-- [Paquete MSI](https://learn.microsoft.com/es-es/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6#msi)
 - Microsoft Store (Recomendado)
+- [Paquete MSI](https://learn.microsoft.com/es-es/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6#msi)
 
 #### Para la única instalación de los herramientas
 
@@ -48,7 +48,7 @@ Un instalador de línea de comandos para Windows. Scoop es un gestor de paquetes
 
 #### Para la documentación
 
-**[$\LaTeX$](https://www.latex-project.org/)**
+**[LaTeX](https://www.latex-project.org/)**
 
 $\LaTeX$ es un sistema de composición tipográfica de alta calidad; incluye características diseñadas para la producción de documentación técnica y científica.
 
@@ -56,8 +56,10 @@ El uso de $\LaTeX$ requiere la instalación de una distribución TeX (el motor y
 
 - Instalación de la distribución *MikTeX*: https://miktex.org/download
 - Verificación: `miktex --version`
-- Instalación de extensión en VSCode o Antigravity: [LaTeX Workshop](ttps://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). Si se usará PyCharm como IDE, buscar en ella una extensión que habilite el uso de $\LaTeX$.
-- Uso: [Aprende $\LaTeX$ en 5 minutos](https://www.youtube.com/watch?v=xzaTBYkqG-4&t=16s)
+- Instalación de extensión para habilitar el uso de $\LaTeX$ en su IDE:
+    - en VSCode, Positron o Antigravity: [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
+    - en PyCharm: [TeXiFy IDEA](https://plugins.jetbrains.com/plugin/9473-texify-idea)
+- Uso: [Aprende LaTeX en 5 minutos](https://www.youtube.com/watch?v=xzaTBYkqG-4&t=16s)
 
 #### Para la gestión de versiones
 
@@ -70,6 +72,10 @@ Sistema de control de versiones de código.
 - Instalación: `scoop install git`
 - Verificación: `git --version`
 - Documentación: [Pro Git](https://git-scm.com/book/en/v2)
+- Configuración:
+    - establecer nombre de usuario: `git config --global user.name "<nombres y apellidos>"`
+    - establecer correo de usuario: `git config --global user.email "<correo>@cajapiura.pe"`
+    - renombrar rama principal por defecto: `git config --global init.defaultBranch main`
 - Uso: basado en las herramientas *commitizen* y *git-flow-next*
 
 **[GitHub](https://github.com/)**
