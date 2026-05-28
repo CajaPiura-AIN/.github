@@ -153,6 +153,8 @@ Cookiecutter crea proyectos desde plantillas cookiecutters, por ejemplo, el tool
 
 ### Lista de toolkits
 
+Se debe contar mínimo con Cookiecutter para la descarga de toolkits. Sin embargo, se recomienda realizar contar con todas las herramientas instaladas para una mayor facilidad de trabajo en el uso de los toolkits.
+
 - Toolkit MLOps
 
   ```shell
